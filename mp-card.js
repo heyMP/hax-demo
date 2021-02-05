@@ -61,17 +61,16 @@ class MpCard extends PfeCard {
                     properties: {
                         color: "base"
                     },
-                    content: `
-                    <h2 slot="pfe-card--header">Lighter card (deprecated)</h2>
-                    <p>This is the lightest pfe-card and <a href="#">a link</a>, and <a href=".">a visited link</a>.</p>
-                    <div class="button-series" slot="pfe-card--footer">
-                        <pfe-cta priority="secondary">
-                        <a href="#">Try</a>
-                        </pfe-cta>
-                        <pfe-cta priority="primary">
-                            <a href="#">Buy</a>
-                        </pfe-cta>
-                    </div>
+                    content: `<h2 slot="pfe-card--header">Lighter card (deprecated)</h2>
+<p>This is the lightest pfe-card and <a href="#">a link</a>, and <a href=".">a visited link</a>.</p>
+<div class="button-series" slot="pfe-card--footer">
+    <pfe-cta priority="secondary">
+    <a href="#">Try</a>
+    </pfe-cta>
+    <pfe-cta priority="primary">
+        <a href="#">Buy</a>
+    </pfe-cta>
+</div>
             `,
                 },
             ],

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h-a-x width="100%" app-store='{"url": "appstore.json"}'>
+        <mp-card color="base">
+            <h2 slot="pfe-card--header">Lighter card (deprecated)</h2>
+            <p>This is the lightest pfe-card and <a href="#">a link</a>, and <a href=".">a visited link</a>.</p>
+            <div class="button-series" slot="pfe-card--footer">
+                <pfe-cta slot="pfe-card--footer" priority="secondary">
+                <a href="#">Try</a>
+                </pfe-cta>
+                <pfe-cta priority="primary">
+                    <a href="#">Buy</a>
+                </pfe-cta>
+            </div>
+        </mp-card>
+    </h-a-x>
+    <script>
+        window.process = window.process || {
+            env: {
+                NODE_ENV: "production"
+            }
+        };
+
+        setTimeout(() => {
+        }, 0);
+    </script>
+    <script type="module"
+        src="https://cdn.webcomponents.psu.edu/cdn/build/es6/node_modules/@lrnwebcomponents/h-a-x/h-a-x.js"></script>
+    <script type="module" src="./scripts.js"></script>
+</body>
+
+</html>

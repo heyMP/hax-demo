@@ -1,0 +1,14 @@
+{
+    "status": 200,
+    "apps": [
+    ],
+    "stax": [
+    ],
+    "blox": [
+    ],
+    "autoloader": {
+      "github-preview": "@lrnwebcomponents/service-card/service-card.js",
+      "mp-card": "@lrnwebcomponents/service-card/service-card.js",
+      "meme-maker": "@lrnwebcomponents/service-card/service-card.js"
+    }
+  }
